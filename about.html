@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="About page of Jon Beck Photography">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800' rel='stylesheet'>
+<link rel="stylesheet" href="css/style.css">
+<title>About</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-white">
+        <a class="navbar-brand mr-auto" href="./index.html">
+            <img class="navbar-logo" src="./images/0-Navbar-JonBeckLogo.png" alt="Logo">
+        </a> <!-- logo -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button> <!-- toggler/collapsibe button -->
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link font-montserrat" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-montserrat" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-montserrat" href="./about.html">
+                        About Us
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="nav-about-chevron bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul> <!-- navbar links -->
+        </div> <!-- collapsible navbar -->
+    </nav> <!-- navbar -->
+
+    <!-- About Us Section -->
+    <section class="container-fluid four-about">
+        <div class="container">
+            <h2 class="font-montserrat">About Us</h2>
+            <img src="./images/actor/ALEX_07_DAD.png" alt="Jon Beck">
+            <h3 class="font-montserrat">Jon Beck Photography</h3>
+            <p>Jon Beck is an international award winning photographer, specializing in fine art, actor portraits, landscape and building photography. Jon’s approach to his work is one of no compromise, 
+            from image capture, printing and framing he uses only the finest quality materials available. All Jon’s images are captured on professional film using medium format equipment. 
+            Jon’s stunning art pieces decorate the walls of many homes, offices and commercial spaces around Australia and the world. </p>
+        </div> <!-- container -->
+    </section> <!-- container-fluid -->
+
+    <!-- Contact Us Section -->
+    <section class="container-fluid five-contact">
+        <div class="container">
+            <div class="five-contact-head">
+                <h2 class="font-montserrat">Contact Us</h2>
+                <p class="font-roboto">We would love to hear from you!</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="five-card">
+                        <i class="fa fa-phone fa-5x" aria-hidden="true"></i>
+                        <h4 class="font-montserrat">CALL US</h4>
+                        <p class="font-roboto">+61 0411 132 843</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="five-card">
+                        <i class="fa fa-map-marker-alt fa-5x" aria-hidden="true"></i>
+                        <h4 class="font-montserrat">OFFICE LOCATION</h4>
+                        <address class="font-roboto">Level 1, 265 Pittwater Road Nowhere 2100</address>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="five-card">
+                        <i class="fa fa-globe-asia fa-5x" aria-hidden="true"></i>
+                        <h4 class="font-montserrat">EMAIL</h4>
+                        <p class="font-roboto">info@JBphotography.com</p>
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section> <!-- container-fluid -->
+
+    <!-- Contact Form Section -->
+    <div id="contact" class="container-fluid six-form">
+        <div class="container col-lg-8 mx-auto">
+            <form id="contact-form">
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="font-montserrat" for="form_name">First name *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required" data-error="Firstname is required.">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="font-montserrat" for="form_lastname">Last name *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required" data-error="Lastname is required.">
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="font-montserrat" for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="font-montserrat" for="form_need">Purpose *</label>
+                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                    <option value="" selected disabled>-- Select Purpose of Contact --</option>
+                                    <option>Photograph Purchasing</option>
+                                    <option>Workshop Inquiries</option>
+                                    <option>Business Inquiries</option>
+                                    <option>Others</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div> <!-- row -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="font-montserrat" for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send pt-2 btn-block" value="Send Message">
+                        </div>
+                    </div> <!-- row -->
+                </div> <!-- controls -->
+            </form> <!-- contact-form -->
+        </div> <!-- container -->
+    </div> <!-- container-fluid -->
+
+    <!-- Footer -->
+    <footer class="container-fluid font-montserrat text-center">
+        <div class="row upper-footer">
+            <a class="navbar-brand col-md-4" href="./index.html">
+                <img class="footer-logo" src="./images/0-Navbar-JonBeckLogo.png" alt="Logo">
+            </a> <!-- logo -->
+            <ul class="footer-links col-md-4 font-montserrat">
+                <li>
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./about.html">About Us</a>
+                </li>
+            </ul> <!-- footer-links -->
+            <ul class="footer-links footer-socials col-md-4">
+                <li>
+                    <a class="facebook" href="https://www.facebook.com/" title="Facebook Link"><em class="fab fa-facebook-f fa-lg"></em></a>
+                </li>
+                <li>
+                    <a class="twitter" href="https://www.x.com/" title="Twitter Link"><em class="fab fa-twitter fa-lg"></em></a>
+                </li>
+                <li>
+                    <a class="instagram" href="https://www.instagram.com/" title="Instagram Link"><em class="fab fa-instagram fa-lg"></em></a>
+                </li>
+            </ul> <!-- footer-links / footer-socials -->
+        </div> <!-- row / upper-footer -->
+        <hr class="footer-line">
+        <div class="lower-footer font-roboto">
+            <p>&copy; 2024 Jon Beck Photography. All rights reserved.</p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Cookie Policy</a>
+        </div> <!-- lower-footer -->
+    </footer> <!-- container-fluid -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+</html>

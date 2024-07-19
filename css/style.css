@@ -1,0 +1,664 @@
+/* @@@@ FONTS & MISC @@@@ */
+
+.font-montserrat{
+    font-family: 'Montserrat';
+}
+
+.font-roboto{
+    font-family: 'Roboto';
+}
+
+/* @@@@ NAVBAR @@@@ */
+
+.navbar{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar-brand{
+    color: #393D3F !important;
+    margin-right: 0 !important;
+}
+
+.navbar-logo{
+    width: 3em;
+    margin-left: 50%;
+}
+
+.navbar-toggler{
+    background-color: #4F7680;
+    border-radius: 0;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-link{
+    color: #393D3F !important;
+}
+
+.nav-link:hover{
+    color: #4F7680 !important;
+}
+
+.nav-about-chevron{
+    width: 0.8em;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+
+/* @@@@ FOOTER @@@@ */
+
+.upper-footer{
+    margin-top: 10%;
+    font-size: 100%;
+}
+
+.upper-footer ul{
+    padding-top: 10px;
+}
+
+.footer-logo{
+    width: 3em;
+}
+
+.footer-links{
+    list-style: none;
+}
+
+.footer-links li{
+    display: inline-block;
+}
+
+hr{
+    border-top: 1px solid #000000;
+}
+
+.lower-footer{
+    font-size: 80%;
+}
+
+.lower-footer p{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 1%;
+}
+
+.lower-footer a{
+    padding-left: 1%;
+    padding-right: 1%;
+    text-decoration: none;
+    color: #393D3F;
+}
+
+.lower-footer a:hover{
+    color: #4F7680;
+}
+
+.footer-socials{
+    margin-top: 0.5%;
+}
+
+.facebook{
+    color: #3B5998;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.twitter{
+    color: #55ACEE;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.instagram{
+    color: #AC2BAC;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/* == index.html CSS == */
+
+/* Banner Section */
+
+.one-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url("../images/banner\-\one.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.one-banner-words h2{
+    color: #FFFEEE;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+.one-banner-words p{
+    color: #F2FDFF;
+    font-size: 0.9em;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.one-banner-words{
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.one-buttons button{
+    background-color: #4F7680;
+    border-color: #4F7680;
+    border-radius: 0;
+}
+
+.one-buttons button:hover{
+    background-color: #FFFEEE !important;
+    color: #4F7680;
+}
+
+.one-buttons a{
+    display: inline-block;
+    vertical-align: top;
+    text-shadow: 0px 0px 4px #000000;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.one-workshop-chevron{
+    width: 0.8em;
+    margin-bottom: 3px;
+}
+
+/* Highlight Section */
+
+.two-highlight{
+    padding-top: 3%;
+}
+
+.two-content-box{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.two-left{
+    padding-top: 100px;
+}
+
+.two-highlight-words h3{
+    font-size: 1em;
+    font-weight: 600;
+    color: #393D3F !important;
+    margin: auto;
+}
+
+.two-highlight-words h2{
+    color: #4E6373;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+.two-highlight-words p{
+    color: #393D3F;
+}
+
+.two-highlight-links{
+    list-style: none;
+}
+
+.two-highlight-links a{
+    text-decoration: none;
+    color: #393D3F;
+}
+
+.two-highlight-links-arrow{
+    width: 0.8em;
+    margin-left: -40px;
+    margin-bottom: 3px;
+    color: #4F7680;
+}
+
+.two-highlight-links a:hover{
+    color: #4F7680;
+}
+
+.two-highlight-buttons button{
+    border-color: #4F7680;
+    color: #4F7680;
+    border-radius: 0;
+}
+
+.two-highlight-buttons button:hover{
+    background-color: #4F7680;
+}
+
+.two-highlight-buttons a{
+    display: inline-block;
+    vertical-align: top;
+    color: #393D3F !important;
+    text-decoration: none;
+}
+
+/* Portfolio Section */
+
+.three-portfolio{
+    padding-top: 3%;
+}
+
+.three-content-box{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.three-portfolio-words h3{
+    font-size: 1em;
+    font-weight: 600;
+    color: #393D3F !important;
+    margin: auto;
+}
+
+.three-portfolio-words h2{
+    color: #4E6373;
+    font-weight: 700;
+    font-size: 2.4em;
+}
+
+.three-portfolio-words p{
+    color: #393D3F;
+}
+
+.three-imgs{
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.three-content h2{
+    color: #4E6373;
+    font-size: 1.7em;
+    margin-top: 1%;
+    padding-left: 5%;
+}
+
+.three-content p{
+    font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.three-content a{
+    padding-left: 5%;
+}
+
+/* == portfolio.html CSS == */
+
+.seven-gallery{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.seven-gallery img{
+    object-fit: cover;
+    width: 100%;
+    height: 50em;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    filter: drop-shadow(5px 5px 10px #393D3F);
+}
+
+.seven-gallery img:hover{
+    transform: scale(0.95);
+}
+
+.seven-gallery h2{
+    font-weight: 700;
+    color: #4E6373;
+    font-size: 250%;
+}
+
+/* == portfolio-subpages CSS == */
+
+.modal-body{
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem;
+}
+
+.portfolio-back{
+    margin-top: 3%;
+}
+
+.portfolio-back a{
+    color: #393D3F;
+    font-size: 80%;
+    text-decoration: none;
+}
+
+.portfolio-back a:hover{
+    color: #4F7680;
+}
+
+.gallery-box h2{
+    font-weight: 700;
+    color: #4E6373;
+    font-size: 250%;
+    margin-top: 6%;
+}
+
+.gallery-box a{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.gallery-box img{
+    object-fit: cover;
+    width: 95%;
+    height: 20em;
+    margin: 2% 2% 2% 2%;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    filter: drop-shadow(5px 5px 10px #393D3F);
+}
+
+.gallery-box img:hover{
+    transform: scale(0.95);
+}
+
+/* == about.html CSS == */
+
+/* About Section */
+
+.four-about{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.four-about .container{
+    width: 80%;
+}
+
+.four-about .container img{
+    width: 60%;
+}
+
+.four-about h2{
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #4E6373;
+    margin-bottom: 4%;
+}
+
+.four-about h3{
+    font-size: 1.8em;
+    color: #4E6373;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.four-about p{
+    color: #393D3F;
+}
+
+/* Contact Section */
+
+.five-contact{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.five-contact-head h2{
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #4E6373;
+}
+
+.five-contact-head p{
+    color: #393D3F;
+    font-size: 0.8em;
+    margin-bottom: 5%;
+}
+
+.five-card i{
+    margin-bottom: 5%;
+}
+
+.five-card h4{
+    font-size: 1.8em;
+    color: #4E6373;
+    margin-bottom: 3%;
+}
+
+.five-card p, .five-card address{
+    color: #393D3F;
+    font-size: 0.8em;
+}
+
+.five-card:hover i{
+    color: #4E6373;
+}
+
+/* Form Section */
+
+.six-form{
+    margin-top: 5%;
+}
+
+.form-group input, .form-group select, .form-group textarea{
+    background-color: #cedbe2;
+    border-color: #4E6373;
+}
+
+.btn-send{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    background-color: #2b3741;
+    border-color: #4E6373;
+}
+
+.btn-send:hover{
+    background-color: #4E6373;
+}
+
+/* @@@@ MEDIA QUERIES @@@@ */
+
+@media screen and (max-width: 1200px) {
+
+    /* @@@@ FOOTER @@@@ */
+    .upper-footer{
+        font-size: 60%;
+    }
+
+    /* == index.html == */
+    .one-banner-words h1{
+        font-size: 300%;
+    }
+
+    .two-right img{
+        width: 90%;
+        padding-top: 10%;
+    }
+    
+    .two-highlight-words h2{
+        font-size: 1.8em;
+    }
+    
+    .two-highlight-words p{
+        font-size: 0.75em;
+    }
+
+    .three-portfolio-words h2{
+        font-size: 1.8em;
+    }
+    
+    .three-portfolio-words p{
+        font-size: 0.75em;
+    }
+
+    .three-imgs{
+        height: 40%;
+    }
+
+    .three-content h2{
+        font-size: 1.3em;
+    }
+    
+    .three-content p{
+        font-size: 0.8em;
+    }
+    
+    .three-content a{
+        font-size: 0.8em;
+    }
+
+    /* == about.html == */
+
+    .five-card h4{
+        font-size: 1.2em;
+    }
+
+    /* == portfolio.html == */
+
+    .seven-gallery h2{
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* @@@@ FOOTER @@@@ */
+    .upper-footer{
+        font-size: 100%;
+    }
+    
+    .lower-footer{
+        font-size: 80%;
+        margin-bottom: 5%;
+    }
+
+    .lower-footer p{
+        display: block;
+    }
+
+    .footer-socials{
+        margin-top: -1%;
+    }
+
+    /* == index.html == */
+    .one-banner-words h1{
+        font-size: 250%;
+    }
+
+    .two-left{
+        padding-top: 10%;
+    }
+
+    .two-right img{
+        width: 60%;
+    }
+
+    .two-highlight-words h2{
+        font-size: 2.4em;
+    }
+    
+    .two-highlight-words p{
+        font-size: 1em;
+    }
+
+    .three-portfolio{
+        margin-top: 10%;
+    }
+
+    .three-portfolio-words h2{
+        font-size: 2.4em;
+    }
+    
+    .three-portfolio-words p{
+        font-size: 1em;
+    }
+
+    .three-content-box{
+        text-align: center;
+    }
+
+    .three-imgs{
+        height: 60%;
+    }
+
+    .three-content{
+        margin-bottom: 20%;
+    }
+
+    .three-content h2{
+        padding-left: 0;
+        font-size: 1.7em;
+    }
+
+    .three-content p{
+        font-size: 1em;
+    }
+    
+    .three-content a{
+        padding-left: 2%;
+        font-size: 1em;
+    }
+
+    /* == about.html == */
+
+    .four-about .container img{
+        width: 100%;
+    }
+
+    .five-card h4{
+        font-size: 2em;
+    }
+
+    .five-card p, .five-card address{
+        font-size: 1em;
+        padding-bottom: 3%;
+    }
+
+    /* == portfolio.html == */
+
+    .seven-gallery img{
+        margin-bottom: 2%;
+    }
+
+    .seven-gallery h2{
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    /* @@@@ FOOTER @@@@ */
+    .upper-footer{
+        font-size: 80%;
+    }
+    
+    .lower-footer{
+        font-size: 70%;
+    }
+
+    /* == index.html == */
+    .one-banner-words h1{
+        font-size: 175%;
+    }
+
+    .one-banner-words p{
+        font-size: 0.6em;
+    }
+
+    /* == portfolio.html == */
+
+    .seven-gallery h2{
+        font-size: 200%;
+    }
+}
